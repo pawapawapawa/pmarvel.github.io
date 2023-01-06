@@ -30,9 +30,10 @@ navLinks.forEach(link => {
     e.preventDefault();
     // Update the contents of the div based on the clicked link
     if (link.textContent === "About") {
-      contentDiv.innerHTML = "<h2>About</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec dui sagittis, posuere dui non, viverra nisi. Aliquam bibendum, tellus at consectetur faucibus, dui dui fermentum lacus, quis fringilla tellus arcu sed metus. Vivamus id tincidunt elit. Mauris rutrum neque erat, non fermentum lacus bibendum ac.</p>";
+      contentDiv.innerHTML = "<h2>About</h2><p>abhyas zala ka</p>";
     } else if (link.textContent === "Contact") {
-      contentDiv.innerHTML = "<h2>Contact</h2><p>Email: info@example.com</p><p>Phone: 555-555-5555</p>";
+      contentDiv.innerHTML = "<h2>Contact</h2><p>Email: info@example.com</p><p>Phone: 555-555-5555 
+      chat coming soon</p>";
     }
   });
 });
